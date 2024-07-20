@@ -5,6 +5,6 @@
 
 # Follow my progress at -
 
-<a href="https://x.com/zer0pse" target="_blank">Twitter</a>
+<u>[Twitter](https://x.com/zer0pse)</u>
 
-<a href="https://www.codedex.io/@zeropse" target="_blank">Codédex</a>
+<u>[Codédex](https://www.codedex.io/@zeropse)</u>
