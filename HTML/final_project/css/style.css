@@ -1,0 +1,31 @@
+body{
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 10;
+    padding: 10;
+}
+header{
+    background-color: #ff6600;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+.nav1, .nav2{
+    display: inline-block;
+    margin: 0 5px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+section{
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+input,textarea{
+    width: 5%;
+    padding: 5px;
+    margin-bottom: 10px;
+}

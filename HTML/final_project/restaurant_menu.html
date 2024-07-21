@@ -15,10 +15,8 @@
         </figure>
         <h1>CrabbyBytz</h1>
         <nav>
-            <ul>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#ordering">Order-form</a></li>
-            </ul>
+            <a href="#menu" class="nav1">Menu</a>
+            <a href="#ordering" class="nav2">Place Your Order</a>
         </nav>
     </header>
     <!-- Main -->
@@ -49,6 +47,7 @@
         <!-- Section 2 -->
         <h2>Place Your Order</h2>
         <form>
+            <!-- Main Order -->
             <label for="ordering">Crab Cakes:
                 <input type="number" name="Order" id="ordering" min="0" max="20" required>
             </label>
@@ -61,12 +60,14 @@
                 <input type="number" name="Order" id="ordering" min="0" max="20" required>
             </label>
             <br>
+            <!-- Sides -->
             <label for="ordering"><h4>Sides</h4>
                 <input type="checkbox" id="ordering">Animal-Style Fries
                 <input type="checkbox" id="ordering">Clam Chowder
                 <input type="checkbox" id="ordering">Crab Bisque
                 <input type="checkbox" id="ordering">Caesar Salad
             </label>
+            <!-- Add=ons -->
             <label for="ordering"><h4>Add-Ons</h4>
                 Spicy?: 
                 <input type="radio" name="input1" id="ordering" required>Yes
@@ -78,6 +79,7 @@
                 <input type="radio" name="input2" id="ordering" required>No
             </label>
             <br><br>
+            <!-- Special Instructions -->
             <label for="ordering">
                 Special Instructions:
                 <br>
