@@ -24,7 +24,7 @@ nav a:hover {
     text-decoration: underline;
 }
 main {
-    padding: 20px;
+    padding: 10px;
 }
 article {
     margin-bottom: 20px;
@@ -70,6 +70,6 @@ form h4 {
 footer {
     text-align: right;
     padding: 10px;
-    background-color: #f8f9fa;
+    background-color: #e9bc8a;
     margin-top: 20px;
 }
