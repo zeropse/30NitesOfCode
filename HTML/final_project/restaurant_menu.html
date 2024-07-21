@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrabbyBytz</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <figure>
+            <img src="assets/html_final_project.png" alt="CrabbyBytz" width="200">
+        </figure>
+        <h1>CrabbyBytz</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#ordering">Order-form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+     <main>
+        <section id="menu">
+        <h2>Menu</h2>
+        <article>
+            <img src="https://shorturl.at/e4Bq6" alt="Crab-Cakes" width="200">
+            <h3>Crab Cakes</h3>
+            <p>Our famous crab cakes are made with 100% real crab meat and seasoned to perfection. Served with a side of our signature dipping sauce.</p>
+            <p>Price: $12.99</p>
+        </article>
+        <article>
+            <img src="https://shorturl.at/wK9Ab" alt="Crab Rangoon" width="200">
+            <h3>Crab Rangoon</h3>
+            <p>Our crab rangoon is a delicious blend of cream cheese, crab meat, and seasonings wrapped in a crispy wonton shell.</p>
+            <p>Price: $8.99</p>
+        </article>
+        <article>
+            <img src="https://shorturl.at/xl3Co" alt="Crab Alfredo" width="200">
+            <h3>Crab Alfredo</h3>
+            <p>Our crab alfredo is a creamy blend of fettuccine noodles, alfredo sauce, and crab meat. Served with a side of garlic bread.</p>
+            <p>Price: $14.99</p>
+        </article>
+        </section>
+        <section id="ordering"> 
+        <h2>Place Your Order</h2>
+        <form>
+            <label for="ordering">Crab Cakes:
+                <input type="number" name="Order" id="ordering" min="0" max="20" required>
+            </label>
+            <br>
+            <label for="ordering">Crab Rangoon:
+                <input type="number" name="Order" id="ordering" min="0" max="20" required>
+            </label>
+            <br>
+            <label for="ordering">Crab Alfredo:
+                <input type="number" name="Order" id="ordering" min="0" max="20" required>
+            </label>
+            <br>
+            <label for="ordering"><h4>Sides</h4>
+                <input type="checkbox" id="ordering">Animal-Style Fries
+                <input type="checkbox" id="ordering">Clam Chowder
+                <input type="checkbox" id="ordering">Crab Bisque
+                <input type="checkbox" id="ordering">Caesar Salad
+            </label>
+            <label for="ordering"><h4>Add-Ons</h4>
+                Spicy?: 
+                <input type="radio" name="input1" id="ordering" required>Yes
+                <input type="radio" name="input1" id="ordering" required>No
+            </label>
+            <br>
+            <label for="ordering">Extra Sauce?:
+                <input type="radio" name="input2" id="ordering" required>Yes
+                <input type="radio" name="input2" id="ordering" required>No
+            </label>
+            <br><br>
+            <label for="ordering">
+                Special Instructions:
+                <br>
+                <textarea name="ordering" id="ordering"></textarea>
+            </label>
+            <br><br>
+            <label for="ordering">
+                <input type="submit" value="Got to Checkout">
+            </label>
+        </form>
+        </section> 
+     </main>
+    <!-- Footer -->
+    <footer>
+        <p>Made with love by &copy; <a href="https://www.codedex.io/@zeropse" target="_blank">zeropse</a></p>
+        <p>&copy; 2024 CrabbyBytz</p>
+</body>
+</html>
