@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welp</title>
+</head>
+<body>
+    <h1>Welcome to Welp!</h1>
+    <h4>Here you can review about books, games, music, etc.</h4>
+    <form>
+        <label for="full-name">Enter Full Name: <input type="text" id="full-name" required></label>
+        <br><br>
+        <label for="reviewID">What are you reviewing?: <input type="text" id="reviewID" required></label>
+        <br><br>
+        <label for="revisit">Will you try/visit again later?
+            <br><br>
+            <input type="radio" id="revisit" name="option" required>Yes
+            <input type="radio" id="revisit" name="option" required>No 
+            <input type="radio" id="revisit" name="option" required>Maybe
+        </label>
+        <br><br>
+        <label for="rating">Rate us please 🙏(1-5)
+            <br><br>
+            <input type="number" id="rating" min="1" max="5" required>
+        </label>
+        <br><br>
+        <textarea name="comment" id="comment" required placeholder="Write comments (no more than 250 charactersets)."></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
