@@ -1,0 +1,18 @@
+#invite-wrapper{
+    width: 50%;
+    padding: 25px;
+    background-color: #1bd6a7;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#invite-text{
+    width: 83%;
+}
+
+#itinerary{
+    text-align: center;
+}

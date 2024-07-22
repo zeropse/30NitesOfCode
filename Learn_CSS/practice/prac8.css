@@ -1,0 +1,12 @@
+#outer{
+    width: 500px;
+    height: 500px;
+    background-color: lightpink;
+}
+#inner{
+    width: 400px;
+    height: 400px;
+    background-image: url(https://shorturl.at/sA1T9);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
