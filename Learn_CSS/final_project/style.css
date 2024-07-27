@@ -5,8 +5,22 @@
     font-size: 25px;
 }
 
+.header h1:hover{
+    color: #6bd3ca;
+    cursor: pointer;
+}
+
 .header nav{
     text-align: right;
+    color: white;
+}
+
+nav a{
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: #6bd3ca;
 }
 
 .image img{
@@ -15,4 +29,11 @@
 
 footer{
     text-align: right;
+}
+
+body{
+    
+    background: linear-gradient(#1e1e1e, #646262);
+    color: #ffffff;
+    background-size: 300% 300%;
 }
