@@ -1,0 +1,32 @@
+.Amazon{
+    color: rgb(0, 113, 133);
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.stock{
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.atc{
+    color: black;
+    background-color: rgb(255, 215, 20);
+    border: none;
+    height: 30px;
+    width: 115px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.bn{
+    color: black;
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 30px;
+    width: 115px;
+    border-radius: 15px;
+    cursor: pointer;
+}
