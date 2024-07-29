@@ -9,29 +9,26 @@
 </head>
 <body>
     <!--Header-->
-
+    
     <header class="header">
-        <h1>zeropse</h1>
-        <nav>
-            <a href="#about"><button>About</button></a>
-            <a href="#projects"><button>Projects</button></a>
-            <a href="#contact"><button>Contact</button></a>
-        </nav>
+        <div class="header-content">
+            <h1>zeropse</h1>
+            <nav>
+                <a href="#about"><button>About</button></a>
+                <a href="#projects"><button>Projects</button></a>
+            </nav>
+        </div>
     </header>
 
     <br>
     <br>
 
     <!--Main-->
-
-    <section class="image">
-        <img src="assets/bg img.jpeg" alt="my-pic">
-        <h1>Hi I am Srijit Dey</h1>
-    </section>
-
-    <section class="about" id="about">
-        <h3>About Me</h3>
-        <p>An enthusiastic techie with a keen interest in the dynamic world of
+    <div class="main">
+        <section class="about" id="about">
+            <h1>Hi I am Srijit Dey</h1>
+            <h3>About Me</h3>
+            <p>An enthusiastic techie with a keen interest in the dynamic world of
             technology. Currently pursuing my Bachelor's degree in Computer
             Applications, I am acquiring a strong foundation in programming
             languages, database management, and computer networking. My
@@ -39,11 +36,29 @@
             software development principles and their practical applications. As
             a curious learner, I am constantly exploring the latest trends and
             innovations in the field of computers.</p>
-    </section>
+        </section>
+        <section class="image">
+            <img src="assets/bg img.jpeg" alt="my-pic">
+        </section>
+    </div>
 
     <section class="projects" id="projects">
         <h3>Projects</h3>
-        
+        <div class="container">
+            <div class="p1">
+                <h4>KnightBot</h4>
+                <img src="assets/knightbot.jpg" alt="KnightBot">
+                <p>A bot made for Greeting New Members in Discord and asking them to select Emoji to gain access to the server.</p>
+                <a href="https://github.com/zeropse/KnightBot" target="_blank"><button>Code</button></a>
+            </div>
+            <div class="p2">
+                <h4>Valopedia</h4>
+                <img src="assets/valopedia.png" alt="Valopedia">
+                <p>Personal video showcase</p>
+                <a href="https://zeropse.github.io/Valopedia/" target="_blank"><button>Demo</button></a>
+                <a href="https://github.com/zeropse/Valopedia" target="_blank"><button>Code</button></a>
+            </div>
+        </div>
     </section>
 
     <section class="contact">
@@ -56,7 +71,7 @@
 
     <!--Footer-->
     <footer>
-        <p>Made by &copy;zeropse</p>
+        <p>Made by &copy; zeropse</p>
     </footer>
 </body>
 </html>
