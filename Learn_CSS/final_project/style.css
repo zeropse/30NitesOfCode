@@ -47,9 +47,6 @@ button:active {
     opacity: 0.15;
 }
 
-.image{
-    
-}
 .image img{
     width: 350px;
     border-radius: 50px;
@@ -59,7 +56,8 @@ h1,h3{
     padding-left: 20px;
 }
 
-.main{
+main{
+    margin-top: 20px;
     display: flex;
     column-gap: 750px;
 }
@@ -107,7 +105,6 @@ p{
 .p2 button{
     margin-top: 20px;
 }
-
 
 .contact{
     padding-top: 30px;
