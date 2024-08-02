@@ -1,3 +1,5 @@
-a = Math.floor(Math.random()*10)
+let x = "I Must Not Tell Lies";
 
-console.log(a)
+for (let i = 1; i <= 100; i++){
+    console.log(`${i}. ${x}`);
+}
