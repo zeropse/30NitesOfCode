@@ -44,7 +44,7 @@ function check(){
 }
 
 for (i=0; i < 24; i++){
-    check()
+    check();
 }
 
 console.log(myDNA)
