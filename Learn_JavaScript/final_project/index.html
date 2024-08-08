@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
 </head>
 <body>
-    
+    <main>
+        <section id="weather-wrapper">
+            <h1>Weather App</h1>
+            <div id="weather-search">
+                <input type="text" id="search" placeholder="Search City">
+                <input type="submit" id="submit" value="Search" onclick="fetchWeather()">
+            </div>
+            <div id="weather-data" style="display: none;"></div>
+            
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
