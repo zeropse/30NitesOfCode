@@ -2,7 +2,7 @@ async function fetchWeather() {
     let searchInput = document.getElementById("search").value;
     const weatherDataSection = document.getElementById("weather-data");
     weatherDataSection.style.display = "block";
-    const apiKey = "7afd1b1005bfe6afb0266c70c2e69099";//I know it's not good to share but it's just for demo
+    const apiKey = "7afd1b1005bfe6afb0266c70c2e69099"; 
 
     if (searchInput === "") {
         weatherDataSection.innerHTML = `
@@ -48,6 +48,39 @@ async function fetchWeather() {
         }
         const data = await response.json();
 
+        let weatherCondition = data.weather[0].main.toLowerCase();
+        const body = document.body;
+
+        switch (weatherCondition) {
+            case "rain":
+                body.style.backgroundImage = "url('assets/rainy.jpg')";
+                break;
+            case "clear":
+                body.style.backgroundImage = "url('assets/clear.jpg')";
+                break;
+            case "clouds":
+                body.style.backgroundImage = "url('assets/cloudy.jpg')";
+                break;
+            case "snow":
+                body.style.backgroundImage = "url('assets/snowy.jpg')";
+                break;
+            case "thunderstorm":
+                body.style.backgroundImage = "url('assets/thunderstorm.jpg')";
+                break;
+            case "mist":
+                body.style.backgroundImage = "url('assets/mist.jpg')";
+                break;
+            case "drizzle":
+                body.style.backgroundImage = "url('assets/drizzle.jpg')";
+                break;
+            case "haze":
+                body.style.backgroundImage = "url('assets/haze.jpg')";
+                break;
+            default:
+                body.style.backgroundImage = "url('background.jpg')";
+                break;
+        }
+
         weatherDataSection.innerHTML = `
         <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png" alt="${data.weather[0].description}" width="100" />
         <div>
@@ -56,7 +89,6 @@ async function fetchWeather() {
             <p><strong>Description:</strong> ${data.weather[0].description}</p>
         </div>
         `;
-
         weatherDataSection.style.display = "flex";
     }
 
@@ -66,3 +98,10 @@ async function fetchWeather() {
         await getWeatherData(geocodeData.lon, geocodeData.lat);
     }
 }
+
+document.getElementById("search").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        fetchWeather();
+    }
+});
